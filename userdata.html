@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./userdata.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js"></script>
+
+
+</head>
+<body>
+    <div class="bgimg">
+        <div class="form">
+            <p>Buyer Data<p>
+                <div class="uspas">
+
+                <input type="text" name="" id="email" placeholder="Username"> <br>
+                <input type="text" name="" id="contact" placeholder="Contact Number"> <br>
+                <input type="text" name="" id="brand" placeholder="Brand"> <br>
+                <input type="text" name="" id="color" placeholder="Color"> <br>
+                <input type="text" name="" id="paymentdown" placeholder="Down Payment"><br>
+                <input type="text" name="" id="monthly" placeholder="Monthly Payment"><br>
+                <input type="text" id="password" placeholder="Password">
+
+
+            </div>
+            
+            <button onclick="signup()">Send Data</button>
+            
+
+        </div>
+    </div>
+
+
+
+    <script src="./userdata.key.js"></script>
+    <script src="./userdata.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </div>
+</body>
+</html>

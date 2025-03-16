@@ -25,7 +25,8 @@ function signup()
         text: "Successfully account has been created",
         
       });
-     
+     // ...<!--redirecting to landing page-->
+    window.location.href = "signin.html";
   })
   .catch((error) => {
     var errorCode = error.code;

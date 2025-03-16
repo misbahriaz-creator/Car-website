@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.bgimg
+{
+    background-image: url(./120mvB.webp) !important;
+    background-repeat: no-repeat !important;
+    height: 100vh !important;
+    width: 100% !important;
+    background-size: cover !important;
+}
+.form
+{ 
+    transform: translateY(100px);
+    border: none;
+    /* background-color: #000000;  */
+    margin-left: 500px !important;
+    /* padding-top: 200px; */
+    /* display: flex;
+    
+    justify-content: center; */
+    height: 70vh;
+    width: 40%;
+}
+.form p{
+    color: rgb(187, 7, 7);
+    font-weight:lighter !important;
+    transform: translateX(-40px);
+
+    font-size: 45px;
+    word-spacing: 4px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.uspas
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.uspas input{
+    background-color: #c4cbd4;
+    /* box-shadow: 2px 2px 8px rgb(187, 7, 7) ; */
+    color: white;
+    
+    border: transparent;
+    width: 60%;
+    padding: 17px;
+    transform: translateX(70px);
+    outline: none;
+
+}
+#username
+{
+    margin-bottom: 10px;
+    color: rgb(8, 8, 8);
+    margin-top: 15px;
+}
+.form h5{
+    color: white;
+    transform: translateX(290px);
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 100;
+    word-spacing: 3px;
+}
+.form button
+{
+    padding: 15px;
+    color: white;
+    margin-top: 15px;
+}
+.form h5{
+    color: white;
+    transform: translateX(290px);
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 100;
+    word-spacing: 3px;
+}
+.form button
+{
+    
+    width: 65%;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(187, 7, 7);
+    padding-inline: 25px;
+    border: none;
+    border-radius: 12px;
+    transform: translateX(70px);
+    
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    margin-top: 20px;
+}
+input, .actual-edit-overlay {
+    -webkit-text-fill-color: #000000 !important;
+    font-size: 15px;
+}
+.google
+{
+    width: 65%;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+    background-color: #c4cbd4 !important;
+    padding-inline: 25px;
+    border: none;
+    border-radius: 15px;
+    transform: translateX(70px);
+    
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
