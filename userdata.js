@@ -28,6 +28,7 @@ function signup(){
 
         fdata.set(objname)
         alert('add')
+        window.location.href = "index.html";
         
     }
 
