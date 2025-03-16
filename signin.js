@@ -23,7 +23,7 @@ function signin()
         
       });
     // ...<!--redirecting to landing page-->
-    window.location.href = "index.html";
+    window.location.href = "userdata.html";
   })
   .catch((error) => {
     var errorCode = error.code;
